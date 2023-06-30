@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333333;
+}
+
+.text {
+    padding-bottom: 2vh;
+    align-items: flex-start;
+    color: white;
+    padding-top: 5vh';
+
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 50vw;
+    max-width: 15em;
+    margin: 1vh;
+    border-radius: 10vh;
+    height: 4vh;
+    min-height: 30px;
+    background-color: #545454;
+    text-align: center;
+    color: white;
+}
+
+.label {
+    padding-top: 1vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.botao {
+    margin-top: 6vh;
+    width: 50vw;
+    max-width: 15em;
+    background: white;
+    border-radius: 10vh;
+    height: 5vh;
+    min-height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botao:hover {
+    transform: translateY(-10px);
+}
+
+.pessoinha {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    width: 35vw;
+    max-width: 200px;
+}
+
+.input::placeholder {
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.text-login {
+    color: white;
+    padding-top: 1vh;
+}
+
+@media (min-width: 425px) {
+    .input {
+        max-width: 30em;
+    }
+}
