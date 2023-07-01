@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333333;
+}
+
+.imageHeader {
+    width: 10vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 4vw;
+    align-items: center;
+}
+
+.buttonHeader {
+    width: 10vh;
+    padding: 0.5vw;
+    border-radius: 10vw;
+    cursor: pointer;
+    margin: 0.5vw;
+}
