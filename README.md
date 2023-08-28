@@ -20,6 +20,6 @@ O projeto “Connect Pet” tem como objetivo principal conectar ONGs e institui
 
 ## Tecnologias Utilizadas
 
-<div align="center">
+<div>
     <img src="https://www.datocms-assets.com/45470/1631026680-logo-react-native.png" alt="Tecnologias Utilizadas" width="150px">
 </div>
